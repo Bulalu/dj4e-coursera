@@ -1,22 +1,7 @@
-<ul>
-    <li><p><a href="/polls">A Polls Application</a></p></li>
-</ul>
-
-
-<ul>
-    <li><p> <a href="/hello">Test the session</a></p></li>
-</ul>
-
-<ul>
-    <li><p> <a href="/autos">The autos app</a></p></li>
-</ul>
-
-<ul>
-    <li><p> <a href="/cats">The cat app</a></p></li>
-</ul>
-
-
-
-<p>
-    <h1>heres the string you requested 8621cddd</h1>
-</p>
+{% extends "base_bootstrap.html" %}
+{% block content %}
+    <h1>Welcome to {{ settings.APP_NAME }}</h1>
+    <p>
+    Hello world.
+    </p>
+{% endblock content %}
